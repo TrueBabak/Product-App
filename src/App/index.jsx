@@ -8,7 +8,7 @@ const App = () => {
     { name: "angular", price: "300$" },
   ];
   return (
-    <div>
+    <div className="">
       product list
       {productslist.map((products) => {
         return <Products name={products.name} price={products.price} />;
